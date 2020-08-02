@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">room-rxjava-app</string>
+    <string name="user_name">User name</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="goto_submit_activity">goto submit view</string>
+    <string name="goto_view_activity">view person list</string>
+</resources>
