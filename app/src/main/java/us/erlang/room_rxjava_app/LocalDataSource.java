@@ -15,7 +15,7 @@ public class LocalDataSource {
 
     public LocalDataSource(Context context) {
         AppDatabase db = Room.databaseBuilder(context,
-                AppDatabase.class, "users").build();
+                AppDatabase.class, "sqlite_users").build();
         personDao = db.getPersonDao();
     }
 
